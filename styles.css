@@ -269,3 +269,22 @@ textarea {
         transform: translateY(0);
     }
 }
+
+@media (max-width: 600px) {
+    .foto-perfil {
+        position: relative;
+        top: -50px;
+    }
+
+    .nome-perfil {
+        font-size: 2.5rem;
+        position: relative;
+        top: -30px;
+    }
+
+    .p-perfil {
+        font-size: 1.3rem;
+        position: relative;
+        top: -40px;
+    }
+  }
